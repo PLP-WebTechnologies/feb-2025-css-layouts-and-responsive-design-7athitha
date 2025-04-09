@@ -1,11 +1,9 @@
-/* Reset some default browser styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Set the body and html to take up the full height */
 html, body {
   height: 100%;
 }
@@ -57,7 +55,7 @@ header nav ul.navbar li a:hover {
   width: 20%;
   background-color: #f4f4f4;
   padding: 20px;
-  height: 100%; /* Ensures sidebar takes full height */
+  height: 100%; 
 }
 
 /* Main content styling */
@@ -65,7 +63,7 @@ header nav ul.navbar li a:hover {
   width: 55%;
   background-color: #fff;
   padding: 20px;
-  height: 100%; /* Ensures main content takes full height */
+  height: 100%; 
   overflow-y: auto;
 }
 
@@ -74,7 +72,7 @@ header nav ul.navbar li a:hover {
   width: 20%;
   background-color: #f4f4f4;
   padding: 20px;
-  height: 100%; /* Ensures aside takes full height */
+  height: 100%; 
 }
 
 /* Footer styling */
@@ -83,7 +81,7 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
-  margin-top: auto; /* Pushes the footer to the bottom of the page */
+  margin-top: auto; 
 }
 
 /* Mobile styles (for screens up to 600px) */
@@ -92,6 +90,7 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+}
 
   header nav ul.navbar li {
     margin: 5px 0;
@@ -108,16 +107,15 @@ footer {
   }
 
   .sidebar {
-    order: 1; /* Sidebar comes first */
+    order: 1; 
   }
 
   .main-content {
-    order: 2; /* Main content comes second */
+    order: 2; 
   }
 
   .aside {
-    order: 3; /* Aside comes last */
-  }
+    order: 3;
 }
 
 /* Tablet styles (for screens between 601px and 1024px) */
@@ -133,15 +131,15 @@ footer {
   }
 
   .sidebar {
-    order: 1; /* Sidebar comes first */
+    order: 1; 
   }
 
   .main-content {
-    order: 2; /* Main content comes second */
+    order: 2; 
   }
 
   .aside {
-    order: 3; /* Aside comes last */
+    order: 3; 
   }
 }
 
@@ -153,7 +151,7 @@ footer {
   }
 
   .sidebar, .main-content, .aside {
-    width: auto; /* Revert to default widths */
+    width: auto; 
   }
 
   .sidebar {
@@ -172,12 +170,12 @@ footer {
 .image-container {
   display: flex;
   justify-content: space-between;
-  gap: 20px; /* Adds space between the images */
+  gap: 20px; 
 }
 
 .image {
-  width: 48%; /* Adjust image width as needed */
+  width: 48%; 
   height: auto;
-  border-radius: 8px; /* Optional: Add border radius for rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /
 }
