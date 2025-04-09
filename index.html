@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Layout with Flexbox</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrapper"> <!-- Main wrapper for Flexbox layout -->
+    <header>
+      <nav>
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content-container">
+      <section class="sidebar">
+        <h2>Programming Languages</h2>
+        <br>
+        <p>Programming languages allow you to communicate with computers to create software, websites, and apps. 
+          They give you the tools to turn ideas into reality by writing code.</p>
+          <br>
+        <nav>
+          <ul>
+            <li><a href="#">Python</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">Ruby</a></li>
+            <li><a href="#">C + +</a></li>
+          </ul>
+        </nav>
+        <br>
+      </section>
+
+      <section class="main-content">
+        <h1>Main Content</h1>
+        <br>
+        <div class="content">
+        <p>Programming languages are the tools that allow you to communicate with computers to create software, websites, and apps. By using specific syntax and commands, programming languages enable you to write instructions that a computer can understand and execute. 
+           Whether you're building a website, a mobile app, or a complex software system, learning a programming language gives you the power to turn your ideas into working applications and solutions. It’s how developers bring concepts to life in the digital world.</p>
+        <br><br>
+        <div class="image-container">
+        <img src="programmer.png" alt="Image 1" class="image">
+        <img src="Coding Lady.png" alt="Image 2" class="image">
+        </div>
+        </div>
+        </section>
+
+      <section class="aside">
+        <br>
+        <p>Subscribe to our newsletter and receive valuable tips, tutorials, and the latest trends in programming. You'll get exclusive resources, access to upcoming events and webinars, and inspiring stories to keep you motivated on your coding journey. 
+          Stay updated and level up your skills with content delivered directly to your inbox.</p>
+        <br>
+        <section class="newsletter">
+          <h3>Subscribe to Our Newsletter</h3>
+          <p>Don't miss out on our updates!</p>
+          <input type="email" placeholder="Enter your email" />
+          <button type="submit">Subscribe</button>
+        </section>
+        <br>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Vena Technologies</p>
+    </footer>
+  </div>
+</body>
+</html>
