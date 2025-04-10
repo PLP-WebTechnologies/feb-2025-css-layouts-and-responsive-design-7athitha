@@ -12,7 +12,7 @@ html, body {
 .wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensure the wrapper takes up full height */
+  min-height: 100vh; 
 }
 
 /* Header styling */
@@ -73,6 +73,10 @@ header nav ul.navbar li a:hover {
   background-color: #f4f4f4;
   padding: 20px;
   height: 100%; 
+}
+  .aside {
+    width: 20%;
+  }
 }
 
 /* Footer styling */
@@ -161,11 +165,6 @@ footer {
   .main-content {
     width: 55%;
   }
-
-  .aside {
-    width: 20%;
-  }
-}
 
 .image-container {
   display: flex;
